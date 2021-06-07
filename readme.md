@@ -15,6 +15,20 @@ if (a) :
     print("hello")
 ```
 
+- これは駄目だった
+
 ```js:test
+console.log("OK")
+```
+
+```js: test
+console.log("OK")
+```
+
+```js : test
+console.log("OK")
+```
+
+```js,test
 console.log("OK")
 ```
